@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h2 {
+    display: flex;
+    justify-content: center;
+}
+aside {
+    padding: 5px;
+    background-color: red;
+    color: aliceblue;
+    display: inline-block;
+    background: #ff0000;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+}
+footer {
+    padding: 10px;
+}
+article {
+    border: 1px solid black;
+    width: 29%;
+}
+.text {
+    width: 100%;
+    padding: 10px;
+}
+
+figcaption {
+    display: flex;
+    justify-content: center;
+}
+.img_product {
+    width: 90%;
+}
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
