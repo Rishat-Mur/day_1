@@ -22,13 +22,13 @@ footer {
 }
 article {
     border: 1px solid black;
-    width: 29%;
+    border-radius: 10px;
+    width: 30%;
 }
 .text {
     width: 100%;
     padding: 10px;
 }
-
 figcaption {
     display: flex;
     justify-content: center;
@@ -38,5 +38,22 @@ figcaption {
 }
 main {
     display: flex;
-    flex-wrap: wrap;
+}
+.product {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-template-rows: repeat(2, 100px);
+}
+.box {
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
 }
